@@ -698,12 +698,16 @@ body {
 
 .modal > button {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 17px;
+  right: 17px;
   border: 0;
   padding: 0;
   margin: 0;
   background: transparent;
+}
+
+.modal > button > svg {
+  display: block;
 }
 
 .overlay {
