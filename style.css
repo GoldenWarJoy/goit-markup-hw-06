@@ -773,12 +773,18 @@ body {
 
 .modal > button {
   position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   top: 17px;
   right: 17px;
-  border: 0;
+  height: 30px;
+  width: 30px;
   padding: 0;
   margin: 0;
   background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 
 .modal > button > svg {
@@ -919,6 +925,10 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--our-team-member-position-text-color);
+}
+
+.accept-label > p > a {
+  color: var(--primary-color);
 }
 
 .modal-send-button {
